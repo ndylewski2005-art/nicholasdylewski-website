@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Nicholas Dylewski</title>
+<meta name="description" content="Contact Nicholas Dylewski about internships, mentorship, business opportunities or collaboration.">
+<meta name="author" content="Nicholas Dylewski">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=7">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html">Nicholas <span>Dylewski</span></a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">&#9776; Menu</button>
+    <ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="resume.html">Resume</a></li>
+<li><a href="portfolio.html">Portfolio</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+  </div>
+</header>
+<main>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Contact</span>
+    <h1>Let&rsquo;s connect</h1>
+    <p>Whether you have an internship, a mentorship opportunity, a business idea, or just want to talk law and entrepreneurship, I&rsquo;d love to hear from you.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container grid grid-2" style="gap:48px">
+    <div>
+      <h2>Send me a message</h2>
+      <!-- FORM: opens the visitor's email app with the message addressed to the email below (no outside service needed). -->
+      <form id="contact-form" action="https://api.web3forms.com/submit" method="POST" data-email="ndylewski2005@gmail.com" data-key="4ca8000e-0b85-4483-968e-e91e03096978">
+        <input type="hidden" name="access_key" value="4ca8000e-0b85-4483-968e-e91e03096978">
+        <input type="hidden" name="subject" value="New message from nicholasdylewski.com">
+        <input type="hidden" name="from_name" value="nicholasdylewski.com">
+        <div class="field"><label for="name">Name</label><input id="name" name="name" required></div>
+        <div class="field"><label for="email">Email</label><input id="email" type="email" name="email" required></div>
+        <div class="field"><label for="reason">I&rsquo;m reaching out about</label>
+          <select id="reason" name="reason">
+            <option>An internship or job opportunity</option>
+            <option>Mentorship</option>
+            <option>A business idea or collaboration</option>
+            <option>Tipsy Towers / Joobie Labs</option>
+            <option>Something else</option>
+          </select></div>
+        <div class="field"><label for="message">Message</label><textarea id="message" name="message" required></textarea></div>
+        <button class="btn btn-primary" type="submit">Send message</button>
+        <div id="form-status" class="send-options" hidden></div>
+        <p class="form-note" style="font-size:.9rem;color:var(--muted);margin-top:12px">Prefer to write directly? Email <a href="mailto:ndylewski2005@gmail.com">ndylewski2005@gmail.com</a>.</p>
+      </form>
+    </div>
+    <div>
+      <h2>Other ways to reach me</h2>
+      <div class="card" style="margin-bottom:16px"><h3>Email</h3><p><a href="mailto:ndylewski2005@gmail.com">ndylewski2005@gmail.com</a></p></div>
+      <div class="card" style="margin-bottom:16px"><h3>LinkedIn</h3><p><a href="https://www.linkedin.com/in/nicholasdylewski" target="_blank" rel="noopener">linkedin.com/in/nicholasdylewski</a></p></div>
+      <div class="card"><h3>Resume</h3><p><a href="files/Nicholas-Dylewski-Resume.pdf" target="_blank">Download my resume (PDF)</a></p></div>
+      <h3 style="margin-top:32px">Places I&rsquo;m connected to</h3>
+      <ul>
+        <li><a href="https://www.herbert.miami.edu/" target="_blank" rel="noopener">University of Miami Herbert Business School</a></li>
+        <li><a href="https://www.lsac.org/" target="_blank" rel="noopener">Law School Admission Council (LSAC)</a>, where my law school journey starts</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <strong style="color:#fff;font-family:var(--serif)">Nicholas Dylewski</strong><br>
+        Entrepreneur &middot; Future law student &middot; Miami, FL
+      </div>
+      <ul class="footer-links">
+        <li><a href="mailto:ndylewski2005@gmail.com">ndylewski2005@gmail.com</a></li>
+        <li><a href="https://www.linkedin.com/in/nicholasdylewski" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="files/Nicholas-Dylewski-Resume.pdf" target="_blank">Resume (PDF)</a></li>
+      </ul>
+    </div>
+    <div class="copyright">&copy; <span id="year">2026</span> Nicholas Dylewski. All rights reserved.</div>
+  </div>
+</footer>
+<script src="js/main.js?v=6" defer></script>
+</body>
+</html>
